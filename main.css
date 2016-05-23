@@ -8,3 +8,22 @@ img{
 	margin-bottom:10px;
 	margin-top:15px;
 }
+#one{
+	background-color: blue;
+	height:800px;
+}
+#two{
+	background-color: green;
+	height:800px;
+}
+#three{
+	background-color: red;
+	height:800px;
+}
+#four{
+	background-color: gray;
+	height:800px;
+}
+.contentDiv{
+	height:800px;
+}

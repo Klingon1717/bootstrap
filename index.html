@@ -17,8 +17,8 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
-	<div class="navbar navbar-default">
+	<body data-spy="scroll" data-target=".navbarcollapse">
+	<div class="navbar navbar-default nabar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<a href="" class="navbar-brand">HOTLINE BLING</a>
@@ -34,15 +34,22 @@
 					
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="">ONE</a></li>
-						<li class="active"><a href="">TWO</a></li>
-						<li class="active"><a href="">THREE</a></li>
+						<li class="active"><a href="one">ONE</a></li>
+						<li class="active"><a href="two">TWO</a></li>
+						<li class="active"><a href="three">THREE</a></li>
+						<li class="active"><a href="four">four</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 		<h1>MAY YOU DANCE OR MAY YOU DIE</h1>
+		<div class="container">
+			<div id="one" class="contentDiv">content</div>
+			<div id="two" class="contentDiv">content</div>
+			<div id="three" class="contentDiv">content</div>
+			<div id="four" class="contentDiv">content</div>
+		</div>
 	<div class="container">
 	<div class="row">
 		<form>
@@ -123,7 +130,26 @@
 			<li class="list-group-item">FOUR</li>
 	</div>
 	</div>
+	<div class="container">
+		<button class="btn btn-success" data-toggle="modal" data-target="#myModal">launch</button>
+		<div class="modal" id="myMyodal">
+		<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal">x
+					</button>
+					<h4 class="modal-title">My Modal</h4></div>
+			<div class="modal-body">
+				booodddayyy
+			</div>
+			<div class="modal-footer">
+			 <button class="btn btn-default" data-dismiss="modal">Close</button>
+			 <button class="btn btn-success">Save Changes</button>
 
+		</div>
+		</div>
+	</div>
+	</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
